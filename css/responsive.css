@@ -1,5 +1,5 @@
 @media screen and (max-width : 1200px) {
-    #hero{
+    #hero p{
         font-size: .9rem;
     }
 
@@ -18,12 +18,12 @@
         transform: translate(-50%);
     }
 
-    .btn-custom1{
-        width: 80%;
+    #hero .row{
+        padding-bottom: 100px;
     }
 
-    #hero .row{
-        padding-bottom: 75px;
+    .btn-custom1{
+        width: 80%;
     }
 }
 
