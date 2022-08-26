@@ -25,16 +25,37 @@
     .btn-custom1{
         width: 80%;
     }
+
+    #about p.text{
+        text-align: justify !important;
+    }
+
+    #skill .card h3{
+        font-size: 1.3rem;
+    }
+
+    #skill .card{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width : 576px){
-    
+    hr{
+        width: 75%;
+    }
 
-    
+    h1{
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width : 350px){
-
+    #portofolio .col-md-12{
+        flex-direction: column;
+    }
 }
 
 
